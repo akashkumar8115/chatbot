@@ -17,23 +17,23 @@ setTimeout(() => {
 
 let Data = (searchData) => {
 
-  if (searchData === "Hi") {
+  if (searchData == "Hi") {
     searchData = "hello how are you";
     document.getElementById("text").innerHTML = searchData;
 
-  } else if (searchData === "Hello" || "hello") {
+  } else if (searchData == "Hello" || "hello") {
     searchData = "hello kese ho aap";
     document.getElementById("text").value = searchData;
 
-  } else if (searchData === "What Is Your Name") {
+  } else if (searchData == "What Is Your Name") {
     searchData = "i am Aakash assistance";
     document.getElementById("text").value = searchData;
   }
-  else if (searchData === "Akash") {
+  else if (searchData == "Akash") {
     searchData = "Akash is a very nice person";
     document.getElementById("text").value = searchData;
   }
-  else if (searchData === "") {
+  else if (searchData == "") {
     searchData = "i am Aakash assistance";
     document.getElementById("text").value = searchData;
   }
@@ -74,29 +74,29 @@ function speek() {
 }
 
 let Datas = (content) => {
-  if (content === "hi") {
+  if (content == "hi") {
     content = "hello how are you";
     document.getElementById("text").value = content;
   }
-  else if (content === "hello") {
+  else if (content == "hello") {
     content = "hello kese ho aap";
     document.getElementById("text").value = content;
   }
 
-  else if (content === "what is your name") {
+  else if (content == "what is your name") {
     content = "i am Aakash assistance";
     document.getElementById("text").value = content;
   }
 
-  else if (content === "who are you") {
+  else if (content == "who are you") {
     content = "me to ek chhoti si assistance hu, and you?";
     document.getElementById("text").value = content;
   }
-  else if (content === "how are you") {
+  else if (content == "how are you") {
     content = "i am fine, and you?";
     document.getElementById("text").value = content;
   }
-  else if (content === "fine") {
+  else if (content == "fine") {
     content = "soon kar achha laga";
     document.getElementById("text").value = content;
   }
